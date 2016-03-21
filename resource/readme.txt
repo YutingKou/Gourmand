@@ -24,6 +24,8 @@
 
 >>继承方法：
 animal：抽象的动物类，包装上述所有共同的特点和能力。
-cow、donkey、elephant、owl、pig、rooster、sheep、tiger：每个独特的动物继承于animal类，拥有独自的特点和能力。
+cow、donkey、elephant、owl、pig、rooster、sheep、tiger：每个独特的动物是animal的实例，拥有独自的特点和能力。
+fruit： 水果类，包装整体西瓜。
+watermelon: 8个状态的不同西瓜，继承于fruit类。
 
 
